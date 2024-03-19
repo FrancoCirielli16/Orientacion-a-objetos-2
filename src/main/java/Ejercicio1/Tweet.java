@@ -8,7 +8,7 @@ public class Tweet extends Elemento {
 
 	
 	public Tweet(String texto) {
-		super();
+		// super();
 		this.texto = texto;
 	}
 
