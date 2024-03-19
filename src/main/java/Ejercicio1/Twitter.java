@@ -11,7 +11,18 @@ public class Twitter {
 		this.usuarios = new ArrayList<Usuario>();
 	}
 	
+	
+	private boolean existeUsuario(String screenName) {
+        for (int i = 0; i<this.usuarios.size(); i++) {
+            return this.usuarios.get(i).getScreenName().equals(screenName);
+        }
+        return false;
+    }
+	
 	public Usuario darDeAltaUsuario(String screenName) {
+		if (existeUsuario(screenName)) {
+			return null;
+		}
 		Usuario u = new Usuario(screenName);
 		this.usuarios.add(u);
 		return u;
@@ -19,8 +30,9 @@ public class Twitter {
 		
 	
 	public void eliminarUsuario(Usuario u) {
-		u.eliminarme();
+		List<Elemento> e = u.eliminarme();
 		this.usuarios.remove(u);
+		this.usuarios.forEach(us -> us.eliminarReTweets(e));
 	}
 	
 	

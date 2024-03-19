@@ -14,11 +14,7 @@ public class ReTweet extends Elemento{
 	}
 	
 	
-	public void eliminarme() {
-		this.origen.eliminarme();
-		
-	}
-
+	
 	@Override
 	public String toString() {
 		return "ReTweet [origen=" + origen.toString() + "]";
