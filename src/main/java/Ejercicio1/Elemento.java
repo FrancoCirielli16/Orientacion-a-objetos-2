@@ -6,12 +6,12 @@
 	public abstract class Elemento {
 		
 		
-		private List<ReTweet> reTweets;
+		// private List<ReTweet> reTweets;
 		
 		
-		public Elemento() {
-			this.reTweets = new ArrayList<ReTweet>();
-		}
+		// public Elemento() {
+		// 	this.reTweets = new ArrayList<ReTweet>();
+		// }
 		
 		public void eliminar() {}
 	

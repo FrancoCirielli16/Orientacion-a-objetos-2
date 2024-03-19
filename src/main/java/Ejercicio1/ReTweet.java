@@ -8,9 +8,9 @@ public class ReTweet extends Elemento{
 	
 	
 	public ReTweet(Elemento origen) {
-		super();
 		this.origen = origen;
-		this.origen.ReTwittear(this);
+		// super();
+		// this.origen.ReTwittear(this);
 	}
 	
 	

@@ -6,7 +6,7 @@ import java.util.List;
 public class Usuario {
 
 	private String screenName;
-	private List<Elemento> tweets;
+	private List<Elemento> elementos;
 	
 	
 	public Usuario(String screenName){
@@ -17,7 +17,7 @@ public class Usuario {
 	public Tweet twittear(String texto) {
 		if (texto.length() < 1 || texto.length() < 280) {
 			Tweet t = new Tweet(texto);
-			this.tweets.add(t);
+			this.elementos.add(t);
 			return t;
 		}
 		return null;
@@ -29,21 +29,13 @@ public class Usuario {
 
 	public ReTweet reTwittear(Elemento elemento) {
 		 ReTweet reTweet = new ReTweet(elemento);
-		 elemento.ReTwittear(reTweet);
-		 this.tweets.add(reTweet);
+		//  elemento.ReTwittear(reTweet);
+		 this.elementos.add(reTweet);
 		 return reTweet;
 	}
 	
-	public List<Elemento> eliminarme() {
-		List<Elemento> borrados = new ArrayList<Elemento>(this.tweets);
-		this.tweets.forEach(t -> t.eliminarme());
-		this.tweets.clear();
-		return borrados;
-	}
-	
-	public void eliminarReTweets(List<Elemento> e) {
-		e.forEach(t -> this.tweets.remove(t));
-		
+	public void eleminarme() {
+		elementos.clear(); 
 	}
 	
 }
