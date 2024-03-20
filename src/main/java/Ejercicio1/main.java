@@ -17,15 +17,12 @@ public class main {
 		
 		ReTweet rtrt = f.reTwittear(rt2);
 		
-		for (int i=0; i<3; i++) {
-			System.out.println(f.tweets.get(i).toString()); 
-		}
+		System.out.println(f.verPublicacion());
+		
 		t.eliminarUsuario(m);
 	
 		
-		for (int i=0; i<f.tweets.size(); i++) {
-			System.out.println(f.tweets.get(i).toString()); 
-		}
+		System.out.println(f.verPublicacion());
 	}
 
 }

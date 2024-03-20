@@ -13,10 +13,7 @@ public class Twitter {
 	
 	
 	private boolean existeUsuario(String screenName) {
-        for (int i = 0; i<this.usuarios.size(); i++) {
-            return this.usuarios.get(i).getScreenName().equals(screenName);
-        }
-        return false;
+        return this.usuarios.stream().filter(u -> u.getScreenName().equals(screenName)).findAny().orElse(null) != null;
     }
 	
 	public Usuario darDeAltaUsuario(String screenName) {
@@ -29,12 +26,17 @@ public class Twitter {
 	}
 		
 	
-	public void eliminarUsuario(Usuario u) {
-		List<Elemento> e = u.eliminarme();
-		this.usuarios.remove(u);
-		this.usuarios.forEach(us -> us.eliminarReTweets(e));
+	public boolean eliminarUsuario(Usuario u) {
+		if (existeUsuario(u.getScreenName())) {
+			u.eliminarme();
+			return this.usuarios.remove(u);
+			
+		}
+		return false;
 	}
 	
-	
+	public int cantidadUsuarios() {
+		return this.usuarios.size();
+	}
 	
 }

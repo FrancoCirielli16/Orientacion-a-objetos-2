@@ -1,26 +1,29 @@
 package Ejercicio1;
 
-import java.util.List;
 
-public class ReTweet extends Elemento{
+
+public class ReTweet implements Elemento{
 	
 	private Elemento origen;
 	
 	
 	public ReTweet(Elemento origen) {
-		super();
 		this.origen = origen;
-		this.origen.ReTwittear(this);
+		// super();
+		// this.origen.ReTwittear(this);
 	}
 	
-	
-	
-	@Override
-	public String toString() {
-		return "ReTweet [origen=" + origen.toString() + "]";
+	public String getContenido() {
+		if(this.origen == null) {
+			return "La publicacion ya no existe";
+		}
+		return "ReTweet ->" + this.origen.getContenido();
 	}
+	
 
-	
+	public void eliminarme() {
+		this.origen = null;
+	}
 	
 	
 

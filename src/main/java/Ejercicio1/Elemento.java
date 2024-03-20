@@ -1,30 +1,10 @@
 	package Ejercicio1;
 	
-	import java.util.ArrayList;
-	import java.util.List;
-	
-	public abstract class Elemento {
+
+	public interface Elemento {
 		
+		public abstract String getContenido();
 		
-		private List<ReTweet> reTweets;
-		
-		
-		public Elemento() {
-			this.reTweets = new ArrayList<ReTweet>();
-		}
-		
-		public void eliminar() {}
-	
-		public void ReTwittear(ReTweet reTweet) {
-			this.reTweets.add(reTweet);
-		}
-		
-		public void eliminarme() {
-			this.reTweets.forEach(rt -> rt.eliminarme());
-			this.reTweets.clear();
-			
-		}
-	
-		
-	
+		public abstract void eliminarme();
+
 	}
