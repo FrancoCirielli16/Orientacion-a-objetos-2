@@ -6,7 +6,7 @@ import java.util.List;
 public class Usuario {
 
 	private String screenName;
-	private List<Elemento> tweets;
+	public List<Elemento> tweets;
 	
 	
 	public Usuario(String screenName){
