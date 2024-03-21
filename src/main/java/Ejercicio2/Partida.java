@@ -16,12 +16,13 @@ public class Partida {
 
         int resultado = opcionJugador1.comparar(opcionJugador2);
 
-        if (resultado == 0) {
+        if (resultado == 0) 
             return "¡Empate!";
-        } else if (resultado == 1) {
-           return (jugador1.getNombre() + " gana con " + opcionJugador1.getNombre());
-        } else {
-            return (jugador2.getNombre() + " gana con " + opcionJugador2.getNombre());
-        }
+        
+        if (resultado == 1) 
+        	return (jugador1.getNombre() + " gana con " + opcionJugador1.getNombre());
+         
+        return (jugador2.getNombre() + " gana con " + opcionJugador2.getNombre());
+        
     }
 }
