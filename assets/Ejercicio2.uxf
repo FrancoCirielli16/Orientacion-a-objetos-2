@@ -1,0 +1,38 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><help_text>-jugadores 0..2</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>315</y><w>182</w><h>133</h></coordinates><panel_attributes>Jugador
+--
+
+--
++&lt;&lt;create&gt;&gt;Jugador(String nombre):Jugador;
++elegirOpcion(Opcion opcion);
++getNombre():String;
++getOpcion():Opcion;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>133</y><w>259</w><h>133</h></coordinates><panel_attributes>Partida
+--
+
+--
++&lt;&lt;create&gt;&gt;Partida(Jugador jugador1, Jugador jugador2):Partida;
++determinaGanador():String;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>322</x><y>315</y><w>175</w><h>133</h></coordinates><panel_attributes>Opcion
+--
+-eleccion:String
+--
++&lt;&lt;create&gt;&gt;Opcion(String nombre):Opcion;
++&lt;&lt;abstract&gt;&gt;comparar(Opcion opcion):int;
++getNombre():String;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>329</y><w>161</w><h>21</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>210;10;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>189</x><y>322</y><w>70</w><h>21</h></coordinates><panel_attributes>-opcion:Opcion</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>175</x><y>154</y><w>70</w><h>21</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>161</x><y>119</y><w>70</w><h>21</h></coordinates><panel_attributes>-jugador1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>168</x><y>154</y><w>70</w><h>21</h></coordinates><panel_attributes>-jugador2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>126</x><y>147</y><w>203</w><h>175</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;230;10;10;270;10</additional_attributes></element><element><id>Relation</id><coordinates><x>105</x><y>133</y><w>224</w><h>189</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;250;10;10;300;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>595</y><w>147</w><h>112</h></coordinates><panel_attributes>Papel
+--
+
+--
++&lt;&lt;create&gt;&gt;Papel():Papel;
++comparar(Opcion opcion):int;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>315</x><y>602</y><w>147</w><h>119</h></coordinates><panel_attributes>Pierda
+--
+
+--
++&lt;&lt;create&gt;&gt;Piedra():Piedra;
++comparar(Opcion opcion):int;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>539</x><y>602</y><w>147</w><h>119</h></coordinates><panel_attributes>Tijera
+--
+
+--
++&lt;&lt;create&gt;&gt;Tijera()Tijera;
++comparar(Opcion opcion):int;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>441</y><w>63</w><h>175</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;10;70;230</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>441</y><w>126</w><h>168</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>160;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>385</x><y>441</y><w>28</w><h>175</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>20;10;10;230</additional_attributes></element></diagram>
