@@ -1,18 +1,22 @@
 
 <div align="center"> 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=1200&pause=1000&color=77D77D&center=true&width=435&lines=💻 Orientacion a Objetos 2 💻"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=1200&pause=1000&color=FF0000&center=true&width=435&lines=💻 Orientacion a Objetos 2 💻"/>
 </div>
 
-<div width="700" align="center"> 
-  <p><img  width="700" src="https://64.media.tumblr.com/3cea19ce57ec895f949350486b89d8b7/tumblr_owj2nonndY1ww81r3o1_540.gifv"></p>
+<div width="400" align="center"> 
+  <p><img  width="700" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/3e8c52123735017.60f4fd2424e14.gif"></p>
 
 </div>
 
 
 <h3>Objetivos</h3>
-Presentar formalmente el paradigma de orientación a objetos, sus características, ventajas y aplicaciones
-dentro del desarrollo de sistemas de software. Desarrollar prácticas concretas con lenguajes orientados a
-Objetos. Establecer metodologías de análisis y diseño orientados a objetos.
+Profundizar los temas desarrollados por el alumno en Orientación a Objetos 1 e introducir conceptos
+fundamentales en la construcción de arquitecturas de software modulares, extensibles y reusables, a través
+de conceptos fundamentales como son: patrones de diseño, refactoring hacia patrones y frameworks
+orientados a objetos. Se profundizará también en el uso de un lenguaje de modelado gráfico orientado a
+objetos (UML), que le permitirá construir diagramas especificando distintos aspectos de un sistema. Los
+trabajos prácticos se realizarán usando el lenguaje de modelado y el lenguaje de implementación Java, que
+resulta el más apropiado de acuerdo a estos objetivos.
 
 
 
