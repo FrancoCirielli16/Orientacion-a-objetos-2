@@ -23,6 +23,19 @@ public class main {
 	
 		
 		System.out.println(f.verPublicacion());
+		
+		Usuario felipao = t.darDeAltaUsuario("Felipao");
+		Usuario lalo = t.darDeAltaUsuario("Lalo");
+		
+		Tweet t3 = felipao.twittear("Hola");
+		
+		ReTweet rt3 = lalo.reTwittear(t3);
+		
+		t.eliminarUsuario(felipao);
+		
+		System.out.println(lalo.verPublicacion());
+		
+		
 	}
 
 }
