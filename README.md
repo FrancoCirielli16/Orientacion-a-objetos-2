@@ -32,7 +32,7 @@ resulta el más apropiado de acuerdo a estos objetivos.
 
 - [1️⃣ Ejercicio 1 Red Social - No valido](/src/main/java/Ejercicio1)
 - [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - No valido instanceOF](/src/main/java/Ejercicio2)
-- [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - Sin if pero se puede mejorar](/src/main/java/Ejercicio2_SIN_IF)
+- [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - Sin if pero mal](/src/main/java/Ejercicio2_SIN_IF)
 - [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - Corregido](/src/main/java/Ejercicio2_Ayudantes)
 - [2️⃣🅱️ Ejercicio 2B Piedra,Papel,Tijera,Spock,Lagarto -  No valido instanceOF](/src/main/java/Ejercicio2B)
 - [2️⃣🅱️ Ejercicio 2B Piedra,Papel,Tijera,Spock,Lagarto - Corregido ](/src/main/java/Ejercicio2B_Ayudantes)
