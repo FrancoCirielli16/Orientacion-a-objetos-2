@@ -27,7 +27,7 @@ resulta el más apropiado de acuerdo a estos objetivos.
 
 <h2>Practicas</h2>
 
-<p><img  width="350" align='right' src="https://media.tenor.com/PBcGjKppnacAAAAd/pixel-art.gif"></p>
+<p><img  width="350" align='right' src="https://media1.tenor.com/m/PUdfnHnBGK4AAAAd/art-room.gif"></p>
 
 
 - [1️⃣ Ejercicio 1 Red Social - No valido](/src/main/java/Ejercicio1)
