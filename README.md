@@ -4,7 +4,7 @@
 </div>
 
 <div width="400" align="center"> 
-  <p><img  width="700" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/3e8c52123735017.60f4fd2424e14.gif"></p>
+  <p><img  width="500" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/3e8c52123735017.60f4fd2424e14.gif"></p>
 
 </div>
 
