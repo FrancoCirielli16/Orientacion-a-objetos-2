@@ -35,7 +35,11 @@ resulta el más apropiado de acuerdo a estos objetivos.
 - [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - Sin if pero mal](/src/main/java/Ejercicio2_SIN_IF)
 - [2️⃣ Ejercicio 2 Piedra,Papel,Tijera - Corregido](/src/main/java/Ejercicio2_Ayudantes)
 - [2️⃣🅱️ Ejercicio 2B Piedra,Papel,Tijera,Spock,Lagarto -  No valido instanceOF](/src/main/java/Ejercicio2B)
-- [2️⃣🅱️ Ejercicio 2B Piedra,Papel,Tijera,Spock,Lagarto - Corregido ](/src/main/java/Ejercicio2B_Ayudantes)
+- [3️⃣ Ejercicio 3 Friday the 13th en Java ](/src/test/java/Ejercicio3)
+- [3️⃣🅱️ Ejercicio 3B Adapter](/src/main/java/biblioteca)
+- [4️⃣ Ejercicio 4 Cálculo de sueldos](/src/main/java/Ejercicio4)
+- [5️⃣ Ejercicio 5 Media Player](/src/main/java/Ejercicio5)
+
 
 
 
