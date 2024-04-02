@@ -23,7 +23,7 @@ resulta el más apropiado de acuerdo a estos objetivos.
 <h2>Examenes</h2>
 
 
-<h2>UMLS</h2>
+<h2>UML</h2>
 
 - [1️⃣ Ejercicio 1](/assets/UML-EJERCICIO1.png)
 - [2️⃣ Ejercicio 2](/assets/UML-EJERCICIO2.png)
