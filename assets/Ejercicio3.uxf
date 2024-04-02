@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>370</x><y>100</y><w>240</w><h>110</h></coordinates><panel_attributes>Biblioteca
+--
+--
++&lt;&lt;create&gt;&gt; Biblioteca() : Biblioteca
++ agregarSocio(socio: Socio)
++ exportarSocios(): String
++getExporter(): VoorheesExporter()
++setExporter(exporter: VoorhesExporter)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>120</y><w>220</w><h>60</h></coordinates><panel_attributes>VoorhesExporter
+--
+--
+-exportar(socio: Socio): String
++exportar(socios: Socio[*]): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>430</y><w>210</w><h>170</h></coordinates><panel_attributes>Socio
+--
+-nombre: String
+-legajo: String
+-email: String
+--
++getNombre(): String
++setNombre(nombre: String)
++getEmail(): String
++setEmail(email: String)
++getLegajo(): String
++setLegajo(legajo: String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>130</y><w>90</w><h>320</h></coordinates><panel_attributes>lt=&lt;-
+0..*
+-socios</panel_attributes><additional_attributes>10;300;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>140</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+-exporter</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element></diagram>

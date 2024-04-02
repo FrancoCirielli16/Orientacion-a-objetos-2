@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>430</x><y>200</y><w>240</w><h>110</h></coordinates><panel_attributes>Biblioteca
+--
+--
++&lt;&lt;create&gt;&gt; Biblioteca() : Biblioteca
++ agregarSocio(socio: Socio)
++ exportarSocios(): String
++getExporter(): VoorheesExporter()
++setExporter(exporter: VoorhesExporter)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>810</x><y>220</y><w>220</w><h>60</h></coordinates><panel_attributes>VoorhesExporter
+--
+--
+-exportar(socio: Socio): String
++exportar(socios: Socio[*]): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>430</y><w>220</w><h>80</h></coordinates><panel_attributes>Exporter
+--
+--
++&lt;&lt;create&gt;&gt; Exporter(): Exporter
+-exportar(s: Socio): JSONObject
++exportar(socios: Socio[*]): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>530</y><w>210</w><h>170</h></coordinates><panel_attributes>Socio
+--
+-nombre: String
+-legajo: String
+-email: String
+--
++getNombre(): String
++setNombre(nombre: String)
++getEmail(): String
++setEmail(email: String)
++getLegajo(): String
++setLegajo(legajo: String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>230</y><w>90</w><h>320</h></coordinates><panel_attributes>lt=&lt;-
+0..*
+-socios</panel_attributes><additional_attributes>10;300;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>240</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+-exporter</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>270</y><w>150</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>590</y><w>210</w><h>40</h></coordinates><panel_attributes>JSONSimple
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>500</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1020</x><y>440</y><w>260</w><h>80</h></coordinates><panel_attributes>JacksonExporter
+--
+--
++&lt;&lt;create&gt;&gt; JacksonExporter(): JacksonExporter
++exportar(socios: Socio[*]): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>270</y><w>250</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;230;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1020</x><y>590</y><w>210</w><h>40</h></coordinates><panel_attributes>Jackson
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1130</x><y>510</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element></diagram>

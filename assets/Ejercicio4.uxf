@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>730</x><y>90</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Empleado
+--
+-sueldo:double
+--
++&lt;&lt;abstract&gt;&gt;getBasico():double;
++&lt;&lt;abstract&gt;&gt;getAdicional():double;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Pasante
+--
+
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Temporario
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1000</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Planta
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>930</x><y>270</y><w>200</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;10;180;180</additional_attributes></element><element><id>Relation</id><coordinates><x>800</x><y>270</y><w>50</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>30;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>270</y><w>240</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>220;10;10;180</additional_attributes></element></diagram>
