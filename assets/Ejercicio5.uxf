@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>126</x><y>217</y><w>182</w><h>133</h></coordinates><panel_attributes>MediaPlayer
+--
+
+--
++&lt;&lt;create&gt;&gt; MediaPlayer():MediaPlayer;
++play();
++guardarMedia(Media media):Boolean;
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>441</x><y>217</y><w>147</w><h>133</h></coordinates><panel_attributes>Media
+--
+
+--
++play():String;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>455</y><w>147</w><h>133</h></coordinates><panel_attributes>FileVideo
+--
+
+--
++play():String;
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>455</y><w>147</w><h>133</h></coordinates><panel_attributes>Audio
+--
+
+--
++play():String;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>889</x><y>217</y><w>147</w><h>133</h></coordinates><panel_attributes>VideoStream
+--
+
+--
++reproduce():String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>301</x><y>231</y><w>154</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+-media *</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>511</x><y>343</y><w>70</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;160</additional_attributes></element><element><id>Relation</id><coordinates><x>364</x><y>343</y><w>91</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>455</y><w>147</w><h>133</h></coordinates><panel_attributes>VideoStreamAdapter
+--
+
+--
++play():String;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>581</x><y>343</y><w>210</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;280;160</additional_attributes></element><element><id>Relation</id><coordinates><x>805</x><y>231</y><w>98</w><h>238</h></coordinates><panel_attributes>lt=&lt;-
+-videoStream</panel_attributes><additional_attributes>120;10;10;10;10;320</additional_attributes></element><element><id>Text</id><coordinates><x>217</x><y>196</y><w>70</w><h>14</h></coordinates><panel_attributes>CLIENT</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>504</x><y>196</y><w>70</w><h>14</h></coordinates><panel_attributes>TARGET</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>938</x><y>196</y><w>70</w><h>14</h></coordinates><panel_attributes>ADAPTEE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>945</x><y>203</y><w>70</w><h>189</h></coordinates><panel_attributes>ADAPTEE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>749</x><y>595</y><w>70</w><h>14</h></coordinates><panel_attributes>ADAPTER</panel_attributes><additional_attributes></additional_attributes></element></diagram>

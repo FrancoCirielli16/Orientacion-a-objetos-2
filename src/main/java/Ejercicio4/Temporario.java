@@ -1,4 +1,4 @@
-package Ejerciccio4;
+package Ejercicio4;
 
 public class Temporario extends Empleado {
 	private boolean casado; 

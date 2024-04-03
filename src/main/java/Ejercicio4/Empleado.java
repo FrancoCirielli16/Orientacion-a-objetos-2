@@ -1,4 +1,4 @@
-package Ejerciccio4;
+package Ejercicio4;
 
 public abstract class Empleado {
 	public abstract double getBasico();

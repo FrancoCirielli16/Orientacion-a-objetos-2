@@ -1,4 +1,4 @@
-package Ejerciccio4;
+package Ejercicio4;
 
 public class Pasante extends Empleado {
 	private int examenes; 
