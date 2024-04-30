@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>770</x><y>500</y><w>210</w><h>190</h></coordinates><panel_attributes>Directorio
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>200</y><w>350</w><h>320</h></coordinates><panel_attributes>
+- contenido *
+
+
+lt=&lt;&lt;&lt;-
+
+</panel_attributes><additional_attributes>10;10;140;10;230;60;290;120;290;180;270;280;220;300</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>500</y><w>210</w><h>190</h></coordinates><panel_attributes>Archivo
+--
+-tamaño:int
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>300</y><w>220</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;200;200</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>300</y><w>270</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>250;10;10;200</additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>120</y><w>210</w><h>190</h></coordinates><panel_attributes>FileSystem
+--
+-nombre:string
+-fechaCreacion:LocalDate
+-
++&lt;&lt;create&gt;&gt;FileSystem():FileSystem
++&lt;&lt;abstract&gt;&gt;tamanoTotalOcupado():int
++&lt;&lt;abstract&gt;&gt;archivoMasGrande():Archivo
++&lt;&lt;abstract&gt;&gt;archivoMasNuevo():Archivo
++&lt;&lt;abstract&gt;&gt;buscar(String nombre):FileSystem[*]
++&lt;&lt;abstract&gt;&gt;buscarTodos(String nombre):FileSystem[*]</panel_attributes><additional_attributes></additional_attributes></element></diagram>

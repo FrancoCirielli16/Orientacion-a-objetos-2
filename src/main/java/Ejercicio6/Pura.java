@@ -20,7 +20,7 @@ public class Pura extends Topografia{
 	}
 	
 	public boolean igual(Topografia t){
-		return t.igualPura(t);
+		return t.igualPura(this);
 	}
 	
 	public boolean igualMixta(Mixta m){
